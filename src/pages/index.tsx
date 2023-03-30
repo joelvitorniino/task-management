@@ -20,11 +20,17 @@ export default function Home() {
         <span className="whitespace-pre-line">
           With our user-friendly interface, you can create and prioritize tasks, set reminders, 
           <br />
+
           and track progress all in one place. 
         </span>
 
+        <br />
+
         <span className="whitespace-pre-line">
-          Whether you're a busy professional or a student with a packed schedule, 
+          <br />
+          Whether you're a busy professional or a student with a packed schedule,
+          <br />
+
           our platform is designed to help you stay organized and productive. 
         </span>
     

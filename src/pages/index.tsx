@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="mb-8">
-        <Image src="/images/tasks.svg" width={100} height={100} alt="Tasks Logo" />
+        <Image src="/images/tasks.svg" width={100} height={100} alt="Tasks Logo" className="relative -top-[15rem]" />
       </div>
-      <p className="text-center leading-relaxed">
+      <p className="text-center leading-relaxed relative -top-[16rem]">
         <span className="whitespace-pre-line">
           Welcome to our task scheduling website, 
           
@@ -26,7 +26,7 @@ export default function Home() {
 
         <br />
 
-        <span className="whitespace-pre-line">
+        <span className="whitespace-pre-line relative -top-3">
           <br />
           Whether you're a busy professional or a student with a packed schedule,
           <br />
@@ -36,7 +36,7 @@ export default function Home() {
     
         <br />
         <br />
-        <span className="whitespace-pre-line">
+        <span className="whitespace-pre-line relative -top-5">
           Sign up today and start achieving your goals with ease!
         </span>
       </p>

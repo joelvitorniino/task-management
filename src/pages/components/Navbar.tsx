@@ -11,7 +11,7 @@ export default function Navbar() {
           <li className="lg:mr-4 lg:ml-[54em] max-sm:mr-2 iphone:mr-0 iphone:ml-7 mr-4">
             <Link
               href="/"
-              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
+              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Home
             </Link>
@@ -19,7 +19,7 @@ export default function Navbar() {
           <li className="lg:mr-[1em] max-sm:mr-2 iphone:mr-0 mr-4">
             <Link
               href="/projects"
-              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
+              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Login
             </Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
           <li className="lg:mr-3 max-sm:mr-1 iphone:mr-0 iphone:-ml-1 mr-4">
             <Link
               href="/about"
-              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
+              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Register
             </Link>
@@ -35,7 +35,7 @@ export default function Navbar() {
           <li className="mr-0">
             <Link
               href="/contact"
-              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white"
+              className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Tasks
             </Link>

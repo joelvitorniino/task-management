@@ -18,7 +18,7 @@ export default function Navbar() {
           </li>
           <li className="lg:mr-[1em] max-sm:mr-2 iphone:mr-0 mr-4">
             <Link
-              href="/projects"
+              href="/login"
               className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Login

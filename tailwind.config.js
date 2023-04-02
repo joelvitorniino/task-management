@@ -7,6 +7,11 @@ module.exports = {
     extend: {
       backgroundColor: {
         "whiteSlate": "#D9D9D9"
+      },
+      fontWeight: {
+        regular: 400,
+        medium: 500,
+        bold: 700
       }
     },
   },  

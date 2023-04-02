@@ -7,7 +7,7 @@ export default function Home() {
         <Image src="/images/tasks.svg" width={100} height={100} alt="Tasks Logo" className="relative -top-[15rem]" />
       </div>
       <p className="text-center leading-relaxed relative -top-[16rem]">
-        <span className="whitespace-pre-line">
+        <span className="whitespace-pre-line font-bold">
           Welcome to our task scheduling website, 
           
           <br />
@@ -17,7 +17,7 @@ export default function Home() {
         <br />
         <br />
 
-        <span className="whitespace-pre-line">
+        <span className="whitespace-pre-line font-bold">
           With our user-friendly interface, you can create and prioritize tasks, set reminders, 
           <br />
 
@@ -26,7 +26,7 @@ export default function Home() {
 
         <br />
 
-        <span className="whitespace-pre-line relative -top-3">
+        <span className="whitespace-pre-line relative -top-3 font-bold">
           <br />
           Whether you're a busy professional or a student with a packed schedule,
           <br />
@@ -36,7 +36,7 @@ export default function Home() {
     
         <br />
         <br />
-        <span className="whitespace-pre-line relative -top-5">
+        <span className="whitespace-pre-line relative -top-5 font-bold">
           Sign up today and start achieving your goals with ease!
         </span>
       </p>

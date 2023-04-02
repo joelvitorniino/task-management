@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
       <nav className="flex justify-between items-center pl-4 pr-[1.2em] mb-8 bg-black text-white">
         <div className="flex justify-center items-center">
-            <h1 className="md:ml-3em sm:ml-3em iphone:-ml-3 whitespace-nowrap">Task Management</h1>
+            <h1 className="md:ml-3em sm:ml-3em iphone:-ml-3 whitespace-nowrap font-bold">Task Management</h1>
         </div>
         
         <ul className="flex list-none justify-end">

@@ -26,7 +26,7 @@ export default function Navbar() {
           </li>
           <li className="lg:mr-3 max-sm:mr-1 iphone:mr-0 iphone:-ml-1 mr-4">
             <Link
-              href="/about"
+              href="/register"
               className="text-white no-underline p-1 transition border border-b-2 border-solid border-transparent hover:border-white font-medium"
             >
               Register

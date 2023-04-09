@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center">
       <div className="mb-8">
-        <Image src="/images/tasks.svg" width={100} height={100} alt="Tasks Logo" className="relative -top-[15rem]" />
+        <Image src="/images/tasks.svg" width={100} height={100} alt="Tasks Logo" />
       </div>
-      <p className="text-center leading-relaxed relative -top-[16rem]">
+      <p className="text-center leading-relaxed">
         <span className="whitespace-pre-line font-bold">
           Welcome to our task scheduling website, 
           
